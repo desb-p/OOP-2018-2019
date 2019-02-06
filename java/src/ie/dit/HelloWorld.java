@@ -3,7 +3,10 @@ package ie.dit;  // Must be in the folder ie/dit
 public class HelloWorld // public can be used outside the ie.dit package
 {
     // static method is a method that 
-    // doesnt require an instance of the class to be calledf
+    // doesnt require an instance of the class to be called
+
+    // void - doesn't have a return type.
+    // args - indicate that it is an array.
     public static void main(String[] args) {
         System.out.println("Hello world");  // print stuff  
 
@@ -11,7 +14,8 @@ public class HelloWorld // public can be used outside the ie.dit package
         // The instance is of a subclass
         Animal misty = new Dog(); // Polymorphism
 
-        // Calling a method
+        // Calling an accessor method (setter) 
+        // sets the private field.
         misty.setName("Misty");
 
         // Calling a method and getting a return value

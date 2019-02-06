@@ -1,5 +1,6 @@
 package ie.dit;
 
+// SUPER CLASS
 public class Animal
 {
     private String name;
@@ -12,8 +13,9 @@ public class Animal
     public String getName()
     {
         return name;
-    }
+    }   
 
+    //empty method
     public void speak()
     {
         
