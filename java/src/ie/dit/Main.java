@@ -15,10 +15,10 @@ public class Main
         processing.core.PApplet.runSketch( a, new BugZap());
 	}
 
-	public void loops()
+	public void arrays()
 	{
 		String[] a = {"MAIN"};
-        processing.core.PApplet.runSketch( a, new Loops());
+        processing.core.PApplet.runSketch( a, new Arrays());
 		
 	}
 
@@ -26,6 +26,7 @@ public class Main
 	public static void main(String[] args)
 	{
 		Main main = new Main();
-		main.loops();			
+		//main.loops();
+		main.arrays();			
 	}
 }
