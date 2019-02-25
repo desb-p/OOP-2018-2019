@@ -209,14 +209,6 @@ public class Loops extends PApplet
 
 	}
 
-<<<<<<< HEAD
-	// void loops5()
-	// {
-	// 	int numRect = 10;
-	// 	//float w = width / (float) numRect;
-
-	// }
-=======
 	void problem1()
 	{
 		int numLines = 20;
@@ -325,27 +317,12 @@ public class Loops extends PApplet
 		}
 	}
 
->>>>>>> 48792a25c10a8893835b958a741732059cb49fe0
 
 	public void draw()
 	{			
 		background(255);
 		stroke(0); // colour of lines.
 		noFill();	
-<<<<<<< HEAD
-		// drawFace(cx + dx, cy + dy, 70);
-		// drawFace(cx + dx, cy -dy, 70);
-		// drawFace(cx - dx, cy + dy, 70);
-		// drawFace(cx - dx, cy -dy, 70);
-
-		// dx ++;
-		// dy ++;
-		//loops();
-		//loops1();
-		//loops2();
-		loops4();
-
-=======
 
 		/*
 		// Examples
@@ -366,7 +343,6 @@ public class Loops extends PApplet
 		//problem4();
 		problem5();
 		//problem6();
->>>>>>> 48792a25c10a8893835b958a741732059cb49fe0
 	}
 
 }
